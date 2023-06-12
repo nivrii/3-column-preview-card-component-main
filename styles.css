@@ -4,17 +4,18 @@
     box-sizing: border-box;
 }
 html{
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lexend Deca' sans-serif;
     font-size: 20px;
 }
 h3{
     color: hsl(0, 0%, 95%);
-    margin: 0;
+    margin: 10px 0;
+    font-weight: 700;
 }
-p{
+p{ 
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
-    font-weight: 450;
+    font-weight: 500;
     line-height: 2;
 }
 body{
@@ -84,7 +85,7 @@ img{
     text-align: center;
     position: fixed;
     transform: translate(-50%, -50%);
-    top: 90%;
+    top: 95%;
     left: 50%;
 }
 .attribution a {
@@ -154,9 +155,6 @@ img{
         color: hsl(179, 100%, 13%);
         border: 1px solid hsl(179, 100%, 13%);
     }
-    .attribution {
-        display: none;
-    }
 }
 
 @media only screen and (max-width:700px){
@@ -164,7 +162,7 @@ img{
         margin: 0 0 10px 0;
     }
     p{
-        font-size: 13px;
+        font-size: 14px;
     }
     body{
         padding: 1rem;
